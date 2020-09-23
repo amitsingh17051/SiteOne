@@ -18,5 +18,5 @@ $(window).scroll(function() {
 
 
 $( document ).ready(function() {
-    $(body).css('display','block');
+    $("body").css('display','block');
 });
