@@ -1,4 +1,12 @@
 
+document.querySelector('body').style.opacity = 0;    
+window.onload = function() {
+
+   document.querySelector('body').style.opacity = 1; 
+
+};
+
+
 
 $(window).scroll(function() {
     if($(window).scrollTop() > 40) {
