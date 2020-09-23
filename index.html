@@ -57,7 +57,18 @@ table {
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
     <link rel="stylesheet" href="library/booststrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/main.css">    
+    <link rel="stylesheet" href="assets/css/main.css"> 
+    
+    <script>
+    let body = document.querySelector('body');
+    body.style.display = "none";    
+    window.onload = function() {
+    //whatever you like to do now, for example hide the spinner in this case
+    
+    body.style.display = "block";  
+    };
+
+    </script>
 </head>
 <body>
 
