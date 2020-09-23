@@ -1,0 +1,225 @@
+body {
+  background-color: #f8f9fa !important;
+  font-family: 'Roboto'; }
+
+h1, h2, h3 {
+  font-family: 'Playfair Display'; }
+
+.top-nav-section .wrapper {
+  display: flex;
+  padding: 5px;
+  align-items: center !important;
+  justify-content: space-between;
+  color: white; }
+
+.top-nav-section .top-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px; }
+  .top-nav-section .top-list li {
+    font-size: 14px; }
+  .top-nav-section .top-list a {
+    color: white; }
+
+.top-nav-section .social_top a {
+  margin-left: 5px;
+  color: white; }
+
+nav.navbar {
+  padding: 0px; }
+  nav.navbar .navbar-brand {
+    padding: 0px; }
+  nav.navbar ul {
+    margin: 0px; }
+  nav.navbar .active .nav-link {
+    color: #ffc107; }
+  nav.navbar .nav-link {
+    padding: 20px;
+    width: 100px;
+    text-align: center; }
+  nav.navbar .nav-item:hover .nav-link {
+    color: #ffc107; }
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.hero1 {
+  position: relative; }
+  .hero1 .heading-box {
+    color: white;
+    display: inline-block;
+    padding: 20px 60px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(30%, 80%);
+    border-radius: 2px; }
+
+.products {
+  margin-top: 100px; }
+
+.product_child {
+  margin-top: 100px; }
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.product_wrapper {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px; }
+  .product_wrapper .product_box {
+    padding: 10px;
+    border: 0.5px solid #ccc; }
+    .product_wrapper .product_box img {
+      width: 100%; }
+    .product_wrapper .product_box .prod_text {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between; }
+      .product_wrapper .product_box .prod_text a {
+        color: #ffc107;
+        font-weight: bold; }
+      .product_wrapper .product_box .prod_text p {
+        margin: 0px; }
+
+.img-active {
+  background-color: #ffc107; }
+
+.about_wrapper {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  display: flex;
+  align-items: center; }
+  .about_wrapper h2 {
+    font-size: 2rem; }
+  .about_wrapper img {
+    filter: grayscale(60%); }
+
+.contact {
+  background-color: #ffc107;
+  padding: 50px 150px; }
+  .contact .contact_wrapper {
+    display: flex;
+    align-items: center; }
+
+form label {
+  font-weight: 600; }
+
+form input, form textarea {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  box-shadow: 0px 6px 15px -10px rgba(0, 0, 0, 0.75); }
+
+footer {
+  color: white; }
+  footer p {
+    margin: 0px; }
+  footer .footer-nav {
+    display: flex;
+    justify-content: center;
+    margin: 0px; }
+    footer .footer-nav a {
+      color: #ffc107;
+      font-weight: bold; }
+
+.about_page {
+  margin-top: 100px;
+  margin-bottom: 50px; }
+  .about_page h1 {
+    font-size: 64px; }
+  .about_page .higlight {
+    color: #ffc107;
+    font-weight: 500; }
+
+.product_page {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+@media only screen and (min-width: 768px) {
+  /* tablets and desktop */ }
+
+@media only screen and (max-width: 992px) {
+  /* phones */
+  .contact {
+    background-color: #ffc107;
+    padding: 50px 30px; }
+  .about_wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px; }
+    .about_wrapper h2 {
+      font-size: 1.8rem; }
+    .about_wrapper p {
+      font-size: 14px; }
+    .about_wrapper button {
+      padding: 5px 20px !important; }
+  .hero1 {
+    position: relative; }
+    .hero1 h1 {
+      font-size: 1.5rem; }
+    .hero1 p {
+      font-size: 14px; }
+    .hero1 .heading-box {
+      color: white;
+      display: inline-block;
+      padding: 20px 60px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: translate(20%, 60%);
+      border-radius: 2px; }
+  nav ul {
+    padding: 10px; }
+  nav .nav-link {
+    padding: 10px !important; } }
+
+@media only screen and (max-width: 768px) {
+  /* portrait phones */
+  .product_wrapper {
+    grid-template-columns: 1fr 1fr; }
+  .hero1 {
+    position: relative; }
+    .hero1 h1 {
+      font-size: 1.5rem; }
+    .hero1 p {
+      display: none; }
+    .hero1 .heading-box {
+      color: white;
+      display: inline-block;
+      padding: 10px 20px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: translate(20%, 60%);
+      border-radius: 2px; }
+  .product-header h2 {
+    font-size: 1.5rem; }
+  #overlay {
+    margin-top: 30px; }
+  .form-block {
+    margin-top: 30px; }
+  .about_page h1 {
+    font-size: 44px; }
+  nav ul {
+    padding: 10px; }
+  nav .nav-link {
+    padding: 10px !important; }
+  .heading-box {
+    transform: translate(20%, 100%) !important; } }
+
+@media only screen and (max-width: 450px) {
+  .prod_text {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px; }
+  .heading-box {
+    padding: 5px 10px !important;
+    transform: translate(20%, 100%) !important; }
+    .heading-box h1 {
+      font-size: 18px; } }

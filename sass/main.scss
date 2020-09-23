@@ -1,0 +1,392 @@
+
+body {
+    background-color:#f8f9fa!important;
+    font-family: 'Roboto';
+}
+
+h1,h2,h3 {
+    font-family: 'Playfair Display';
+}
+.top-nav-section {
+    .wrapper {
+        display: flex;
+        padding:5px;
+        align-items: center !important;
+        justify-content: space-between;
+        color:white;
+    }
+    .top-list {
+        display: flex;
+        justify-content: space-between;
+        margin:0px;
+        li {
+            font-size:14px;
+        }
+        a {
+            color:white;
+        }
+    }
+
+
+    .social_top {
+        a {
+            margin-left:5px;
+            color:white;
+        }
+    }
+
+    
+}
+
+nav.navbar {
+    padding:0px;
+    
+    .navbar-brand {
+        padding:0px;
+    }
+    ul{
+        margin:0px;
+    }
+    .active {
+        .nav-link {
+            color: #ffc107;
+        }
+    }
+
+    .nav-link {
+        padding:20px;
+        width:100px;
+        text-align: center;
+    }
+
+    .nav-item:hover  {
+       
+        .nav-link {
+            color: #ffc107;
+        }
+    }
+
+
+
+}
+.navbar-nav {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// hero one image
+
+.hero1 {
+    
+    position: relative;
+
+
+    .heading-box {
+        color:white;
+        display:inline-block;
+        padding:20px 60px;
+        position: absolute;
+        left:0;
+        top:0;
+        transform:translate(30%, 80%);
+        border-radius: 2px;
+    }
+    
+    
+}
+
+.products {
+    margin-top:100px;
+}
+
+.product_child {
+    margin-top:100px;
+}
+
+.product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product_wrapper {
+    margin-top:10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:40px;
+    .product_box {
+        padding:10px;
+        border: 0.5px solid #ccc;
+        img {
+            width: 100%;
+        }
+        .prod_text {
+            margin-top:10px;
+            display: flex;
+            justify-content: space-between;
+            a {
+               
+                color: #ffc107;
+                font-weight: bold;
+            }
+            p {
+                margin:0px;
+            }
+        }
+    }
+}
+
+
+.img-active {
+   background-color:#ffc107;
+}
+
+
+.about_wrapper {
+    margin-top:200px;
+    margin-bottom:200px;
+    display: flex;
+    align-items: center;
+    h2 {
+        font-size:2rem;
+    }
+    img {
+        filter: grayscale(60%);
+    }
+}
+
+
+.contact {
+    
+    background-color:#ffc107;
+    padding:50px 150px;
+    .contact_wrapper {
+        display: flex;
+        align-items: center;
+
+       
+
+       
+    }
+}
+
+form {
+    label {
+        font-weight:600;
+    }
+    input,textarea {
+        outline: none;
+        box-shadow:none;
+        border:none;
+        box-shadow: 0px 6px 15px -10px rgba(0,0,0,0.75);
+
+    }
+}
+
+
+// footer css 
+
+
+
+footer {
+    color:white;
+   
+    p {
+        margin:0px;
+    }
+
+    .footer-nav {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        
+        a {
+            color: #ffc107;
+            font-weight: bold;
+        }
+    }
+}
+
+
+
+// About page style
+
+
+.about_page {
+    margin-top:100px;
+    margin-bottom:50px;
+    h1 {
+        font-size:64px;
+    }
+
+    .higlight {
+        color:#ffc107;
+        font-weight: 500;
+    }
+}
+
+// product.php
+
+.product_page {
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+
+
+
+
+// Media queries
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+   
+}
+
+@media only screen and (max-width: 992px) {
+    /* phones */
+
+   
+    .contact {
+        background-color:#ffc107;
+        padding:50px 30px;
+    }
+
+
+    .about_wrapper {
+        margin-top:100px;
+        margin-bottom:100px;
+        h2 {
+            font-size:1.8rem;
+        }
+        p {
+            font-size:14px;
+        }
+        button {
+            padding: 5px 20px !important;
+        }
+    }
+
+
+    .hero1 {
+    
+        position: relative;
+    
+        h1 {
+            font-size:1.5rem;
+        }
+        p {
+            font-size:14px;
+        }
+        .heading-box {
+            color:white;
+            display:inline-block;
+            padding:20px 60px;
+            position: absolute;
+            left:0;
+            top:0;
+            transform:translate(20%, 60%);
+            border-radius: 2px;
+        }
+        
+        
+    }
+
+    nav {
+        ul {
+            padding:10px;
+        }
+        .nav-link {
+            padding:10px !important;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* portrait phones */
+   
+
+
+    .product_wrapper {
+        grid-template-columns: 1fr 1fr;
+    }    
+
+
+
+    .hero1 {
+    
+        position: relative;
+    
+        h1 {
+            font-size:1.5rem;
+        }
+        p {
+            display: none;
+        }
+        .heading-box {
+            color:white;
+            display:inline-block;
+            padding:10px 20px;
+            position: absolute;
+            left:0;
+            top:0;
+            transform:translate(20%, 60%);
+            border-radius: 2px;
+        }
+        
+        
+    }
+
+
+    .product-header h2 {
+        font-size:1.5rem;
+    }
+
+    #overlay {
+        margin-top:30px;
+    }
+
+    .form-block {
+        margin-top:30px;
+    }
+
+
+
+    .about_page h1 {
+        font-size:44px;
+    }
+
+    nav {
+        ul {
+            padding:10px;
+        }
+        .nav-link {
+            padding:10px !important;
+        }
+    }
+
+  
+    .heading-box {
+
+        transform: translate(20%, 100%) !important;
+         
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .prod_text {
+        display: flex;
+        flex-direction: column;
+        font-size:14px;
+    }
+
+    .heading-box {
+        padding:5px 10px !important;
+        transform: translate(20%, 100%) !important;
+        h1 {
+            font-size:18px;
+        }     
+    }
+}
