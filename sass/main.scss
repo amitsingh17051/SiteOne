@@ -118,6 +118,9 @@ nav.navbar {
     .product_box {
         padding:10px;
         border: 0.5px solid #ccc;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
         img {
             width: 100%;
         }
@@ -417,5 +420,14 @@ footer {
         h1 {
             font-size:18px;
         }     
+    }
+
+    .navbar-brand h1 {
+        font-size:1.5rem;
+    }
+
+    .top-nav-section .wrapper {
+        display: flex;
+        flex-direction: column;
     }
 }
