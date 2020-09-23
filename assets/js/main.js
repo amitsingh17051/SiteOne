@@ -16,16 +16,6 @@ $(window).scroll(function() {
 });
 
 
-$('.submit').click(function() {
-    //event.preventDefault();
-    
-    
-    var name = $('#name');
-    var mobile = $('.mobile');
-    var email = $('.email');
-    var desc = $('.desc');
-    var statusElm = $('.statusElm');
-    
-   
-    
-})
+$( document ).ready(function() {
+    console.log('page loaded');
+});
