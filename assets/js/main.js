@@ -1,10 +1,7 @@
-
-document.querySelector('body').style.opacity = 0;    
-window.onload = function() {
-
-   document.querySelector('body').style.opacity = 1; 
-
-};
+window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+});
 
 
 
