@@ -1,4 +1,5 @@
 
+$(body).css('display','none');
 $(window).scroll(function() {
     if($(window).scrollTop() > 40) {
         $( ".navbar" ).css({
@@ -17,5 +18,5 @@ $(window).scroll(function() {
 
 
 $( document ).ready(function() {
-    console.log('page loaded');
+    $(body).css('display','block');
 });
