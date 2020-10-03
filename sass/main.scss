@@ -399,7 +399,9 @@ footer {
         }
     }
 
-  
+   
+
+
     .heading-box {
 
         transform: translate(20%, 100%) !important;
@@ -421,13 +423,18 @@ footer {
             font-size:18px;
         }     
     }
-
+    .navbar {
+        padding:10px !important;
+    }
     .navbar-brand h1 {
-        font-size:1.5rem;
+        font-size:1.2rem;
     }
 
     .top-nav-section .wrapper {
         display: flex;
         flex-direction: column;
     }
+
+
+
 }
