@@ -22,3 +22,7 @@ $(window).scroll(function() {
 });
 
 
+ fetch('https://jitender-products-api.herokuapp.com/api/products')
+ .then(response => response.json())
+ .then(data => console.log(data));
+
